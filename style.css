@@ -1,0 +1,27 @@
+body {
+    height: 300vh;
+  }
+
+  h1,
+  p {
+    text-align: center;
+  }
+
+  .up {
+    position: fixed;
+    bottom: 10px;
+    right: -60px;
+    background-color: #e60f08;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+
+  /* this class on css only  */
+  .up.show {
+    right: 10px;
+  }
